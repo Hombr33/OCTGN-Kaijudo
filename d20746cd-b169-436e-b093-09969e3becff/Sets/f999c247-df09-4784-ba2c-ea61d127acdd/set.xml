@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="8.Triple Strike" id="f999c247-df09-4784-ba2c-ea61d127acdd" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="4.5.0.0" version="2.0.0.0">
+<cards>
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de8a" name="Aqua Seneschal">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="Choten's Advisor - Whenever this creature attacks, you may draw a card." />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="1/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de8b" name="Bottle of Wishes">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Shuffle your deck, then reveal the top card. If it's a non-evolution creature, put it into the battle zone. If it's a spell that is level 7 or less, cast it for free. Otherwise, put it into your hand." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="2/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de8c" name="Crystal Memory">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Search your deck. Take a card from it and put that card into your hand. Then shuffle your deck." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="3/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de8d" name="Fluorogill Manta">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Trench Hunter" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Guard" />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="4/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de8e" name="Logos Scan">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Draw 2 cards." />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="5/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de8f" name="Reef-Eye">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Trench Hunter" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Guard" />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="6/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de80" name="Black Feather of Shadow Abyss">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Specter" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="Ghostly Siphon - Whenever an enemy creature is banished, you may draw a card." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="7/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de81" name="Bone Blades">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value=" Shield Blast&#xd;&#xa;Banish target enemy creature that is level 4 or less." />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="8/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de82" name="Dream Pirate">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Specter" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Ghostly - When this creature attacks, banish it at the end of the attack." />
+			<property name="Rarity" value="**" />
+            <property name="Number" value="9/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de83" name="Razorkinder">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Evil Toy" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="Grab and Stab - When this creature enters the battle zone, banish target untapped enemy creature." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="10/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de84" name="Skull Shatter">
+			<property name="Level" value="8" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="You opponent discards his or her hand." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="11/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de85" name="Terror Pit">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Banish target enemy creature." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="12/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de86" name="Bolshack Dragon">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Power" value="6000+" />
+			<property name="Rules" value="Double Breaker Molten Fists - While attacking, this creature gets +1000 power for each Fire card in your discard pile." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="13/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de87" name="Comet Missile">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Banish target enemy creature that has &quot;Blocker.&quot;" />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="14/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de88" name="Dragon's Breath">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Banish target enemy creature that has power 3000 or less.&#xd;&#xa;Banish target enemy creature that has power 2000 or less.&#xd;&#xa;Banish target enemy creature that has power 1000 or less." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="15/22" />
+		</card> 
+		<card id="94769edc-ce06-4402-b4ca-4446eec3de89" name="Hyperspeed Dragon">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="Slipstream - While you have another Armored Dragon in the battle zone, all your Armored Dragons have &quot;Fast Attack.&quot;" />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="16/22" />
+		</card> 
+		<card id="8375ff4a-e0aa-4ece-8b24-4398707d000a" name="Meteosaur">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Rock Brute" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="Headbutt - When this creature enters the battle zone, banish target enemy creature that has power 2000 or less." />
+			<property name="Rarity" value="**" />
+            <property name="Number" value="17/22" />
+		</card> 
+		<card id="8375ff4a-e0aa-4ece-8b24-4398707d000b" name="Moorna, Gatling Dragon">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Twin Cannons - This creature can attack untapped creatures." />
+			<property name="Rarity" value="****" />
+            <property name="Number" value="18/22" />
+		</card> 
+		<card id="8375ff4a-e0aa-4ece-8b24-4398707d000c" name="Rock Bite">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Banish target enemy creature that has power 3000 or less." />
+			<property name="Rarity" value="*" />
+            <property name="Number" value="19/22" />
+		</card> 
+		<card id="8375ff4a-e0aa-4ece-8b24-4398707d000d" name="Tornado Flame">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Banish target enemy creature that has power 5000 or less." />
+			<property name="Rarity" value="***" />
+            <property name="Number" value="20/22" />
+		</card> 
+		<card id="8375ff4a-e0aa-4ece-8b24-4398707d000e" name="Grip of Despair">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Shield Blast&#xd;&#xa;Return target creature from the battle zone to its owner's hand. Then that player chooses and discards a card" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="21/22" />
+		</card> 
+		<card id="8375ff4a-e0aa-4ece-8b24-4398707d000f" name="Soul Vortex">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Darkness / Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Shield Blast&#xd;&#xa;Banish target enemy creature that has power 3000 or less.&#xd;&#xa;Choose a creature in your discard pile that is level 4 or less and return it to your hand." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="22/22" />
+		</card>
+		<card id="3c307d97-f9ed-4df3-8326-455795375ff3" name="Magnet Mech Glu-urrgle">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Cyber Lord" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Magnetic Grapple - Whenever this creature attacks and isn't blocked, you may return target creature that is level 5 or less from the battle zone to its owner's hand." />
+		    <property name="Rarity" value="D*****" />
+            <property name="Number" value="D1/D3" />
+		</card>
+		<card id="97f0cf66-d691-4520-ac9b-02ec50b0b1e7" name="Feral Scaradorable">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="Mindshred — At the end of each of your turns, if this creature broke a shield that turn, your opponent puts the top card of his or her deck into his or her discard pile. If it's a spell, banish target enemy creature. Otherwise, your opponent chooses and discards a card." />
+		    <property name="Rarity" value="D*****" />
+            <property name="Number" value="D2/D3" />
+		</card> 
+		<card id="b8bff5c4-1537-485b-810e-561a4a6d1db6" name="Rampaging Tatsurion">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Beast Kin" />
+			<property name="Power" value="8000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Aftershock Shells — Whenever this creature wins a battle, banish target enemy creature that has power less than the losing creature." />
+		    <property name="Rarity" value="D*****" />
+            <property name="Number" value="D3/D3" />
+		</card> 
+</cards> 
+</set>

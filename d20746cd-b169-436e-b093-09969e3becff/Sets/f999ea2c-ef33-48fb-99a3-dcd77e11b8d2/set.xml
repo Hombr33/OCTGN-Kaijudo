@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="10.Invasion Earth" id="f999ea2c-ef33-48fb-99a3-dcd77e11b8d2" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="4.5.0.0" version="2.0.0.0">
+<packaging><pack name="Booster" id="9174b64b-7f4d-4880-ba84-1777e12c6c58">
+    <options> 
+			<option probability="0.667"> 
+				<pick qty="3" key="Rarity" value="**" /> 
+			</option> 
+			<option probability="0.222"> 
+				<pick qty="2" key="Rarity" value="**" />
+				<pick qty="1" key="Rarity" value="****" /> 
+			</option> 
+			<option probability="0.111"> 
+				<pick qty="2" key="Rarity" value="**" />
+				<pick qty="1" key="Rarity" value="*****" /> 
+			</option> 
+		</options>
+		<pick qty="1" key="Rarity" value="***" />  
+		<pick qty="5" key="Rarity" value="*" />
+	</pack>
+  </packaging>
+<cards> 
+        <card id="30d41942-c4b7-4849-8bb3-565bd4011a00" name="Cassiopeia Starborn">
+			<property name="Level" value="10" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Celestial Dragon" />
+			<property name="Power" value="12500" />
+			<property name="Rules" value="Triple Breaker&#xd;&#xa;Supernova - When this creature enters the battle zone, tap all enemy creatures. They don't untap at the start of your opponent's next turn." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S1/S10" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a01" name="Warbringer Poseidon">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Leviathan" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Mindwipe - Each time one of your Corrupted creatures would be banished, return it to your hand instead.&#xd;&#xa;Tainted Seas - You tap 2 fewer mana cards to summon Corrupted creatures." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S2/S10" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a02" name="Megaria, the Deceiver">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Dark Lord" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Dark Gambit - When this creature enters the battle zone, put the top 3 cards of your deck into your discard pile. Then choose a card in your discard pile at random. If that card is a non-evolution creature, put it into the battle zone. Otherwise, return it to your hand." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S3/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a03" name="Napalmeon the Conquering">
+			<property name="Level" value="9" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon" />
+			<property name="Power" value="12000" />
+			<property name="Rules" value="Triple Breaker&#xd;&#xa;Brutal Offensive - All your other Armored Dragons have &quot;Powerful Attack +5000&quot; and break an additional shield.&#xd;&#xa;Intimidating Presence - All your opponent's Dragons can't attack." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S4/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a04" name="Almighty Colossus">
+			<property name="Level" value="11" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Monarch/Colossus" />
+			<property name="Power" value="17000" />
+			<property name="Rules" value="Triple Breaker&#xd;&#xa;Pulverize - When this creature enters the battle zone, it battles target enemy creature.&#xd;&#xa;Primordial Roar - Whenever this creature attacks and whenever it becomes the target of one of your opponent's spells or abilities, reveal the top 3 cards of your deck. You may put a Nature creature from among them into the battle zone. Put the rest on the bottom of your deck in any order.&#xd;&#xa;Nature Monarch - Each of your other Nature creatures gets +4000 power." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S5/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a05" name="Dark-Seer Jurlon">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Light / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Enforcer/Rot Worm" />
+			<property name="Power" value="4500" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Scrying Germs - Whenever this creature attacks, your opponent reveals his or her hand. You choose a spell from it and your opponent discards that spell.&#xd;&#xa;Spell Twist - Whenever one of your creatures become the target of one of your opponents spells, you may tap or untap target creature." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S6/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a06" name="Major Ao">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Skyforce Champion/Drakon" />
+			<property name="Power" value="4500" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker&#xd;&#xa;Fast Attack&#xd;&#xa;Into the Fray - Whenever this creature wins a battle for the first time each turn, untap it." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S7/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a07" name="Elder Titan Auralia">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Light / Nature" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Skyforce Champion/Colossus" />
+			<property name="Power" value="8500" />
+			<property name="Rules" value="(This card enters your mana zone tapped)&#xd;&#xa;Evolution - Put on one of your Skyforce Champions or Colossi.&#xd;&#xa;Double Breaker&#xd;&#xa;Spell Sanctum - Each time a spell that is level 7 or less would enter your mana zone from your deck, you may cast it for free instead." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S8/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a08" name="General Charzon">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Water / Fire" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Corrupted/Armored Dragon" />
+			<property name="Power" value="5000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Corrupted creatures or Armored Dragons.&#xd;&#xa;Corrupted Commander - All of your Corrupted creatures have &quot;Powerful Attack +5000&quot; and &quot;Double Breaker&quot;." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S9/S10" />
+		</card> 
+        <card id="30d41942-c4b7-4849-8bb3-565bd4011a09" name="Tatsurion the Brawler">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Fire / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Beast Kin" />
+			<property name="Power" value="7000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector&#xd;&#xa;Double Breaker&#xd;&#xa;Fierce Friend - Whenever one of your creatures that has &quot;Scaradorable&quot; or &quot;Glu-urrgle&quot; in its name is attacked, untap this creature, and this creature gets +5000 power until the end of the turn." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="S10/S10" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a10" name="Arc Ward">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Choose one of your creatures. At the end of this turn, untap that creature. It gets &quot;Blocker Blocker&quot; until the start of your next turn. " />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="1/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a11" name="Detain">
+			<property name="Level" value="1" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Your opponent chooses one of his or her untapped creatures in the battle zone. Tap that creature." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="2/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a12" name="Graviton Generator">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Enforcer" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Skirmisher&#xd;&#xa;G-Force - Whenever this creature blocks, tap target enemy creature." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="3/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a13" name="Haven's Elite">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Skyforce Champion" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Oathbound - Each time this creature or one of your other non-evolution Skyforce Champions would be banished, put it into your shield zone face down as a new shield instead." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="4/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a14" name="Ion Cruiser">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Storm Patrol" />
+			<property name="Power" value="5500" />
+			<property name="Rules" value="" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="5/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a15" name="Sunmote Field">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Until the start of your next turn, creatures can't attack you. (They can still attack your creatures.)" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="6/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a16" name="Sunwhip Sentry">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Light" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Skyforce Champion" />
+			<property name="Power" value="6500" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Double Breaker" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="7/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a17" name="Aqua Trickster">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Aquan" />
+			<property name="Power" value="1000" />
+			<property name="Rules" value="" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="8/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a18" name="Engulf">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Your opponent chooses on of his or her untapped creatures in the battle zone. Return that creature to your opponent's hand." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="9/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a19" name="Guardian Rusalka">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Trench Hunter" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Guard&#xd;&#xa;Psionic Rebuke - When this creature enters the battle zone, you may return target creature from the battle zone to its owner's hand." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="10/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a20" name="King Barnacle">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Leviathan" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Guard&#xd;&#xa;Reef Salvage - When this creature enters the battle zone and whenever it blocks, you may draw a card." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="11/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a21" name="Morphing Pod">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Put target creature on the bottom of its owners deck. That player reveals cards from the top of his or her deck until a non-evolution creature of the same level or less is revealed. That player puts the revealed creature into the battle zone, then shuffles the remaining revealed cards and put them on the bottom of his or her deck." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="12/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a22" name="Seneschal, Choten's Lieutenant">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Cyber Lord" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Second-in-Command - Whenever one of your Corrupted creatures attacks, you may draw a card.&#xd;&#xa;Cloaking Field - Each of your Corrupted creatures can't be the target of your opponent's spells that are level 4 or less." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="13/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a23" name="Veil Slip">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Put a non-evolution creature that is level 8 or less from your hand into the battle zone. Then return that creature from the battle zone to your hand." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="14/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a24" name="Chimera Predator">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Chimera" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="15/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a25" name="Ravenous Web-Leg">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Shadow Champion" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Guard&#xd;&#xa;Dinner - When this creature wins a battle, banish it.&#xd;&#xa;Dessert - When this creature is banished, your opponent chooses one of his or her creatures in the battle zone. Banish that creature." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="16/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a26" name="Sickly Larva">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Rot Worm" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Decay - When this creature attacks, banish it at the end of the attack." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="17/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a27" name="Snake Trap">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Target enemy creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is banished.)" />
+		    <property name="Rarity" value="" />
+            <property name="Number" value="18/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a28" name="Spinning Terror">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Dread Mask" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Dark Lord's Verdict - Whenever your opponent draws a card other than the first card of his or her turn, choose one of your opponent's shields. This creature breaks that shield." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="19/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a29" name="Vile Malvictus">
+			<property name="Level" value="8" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Shadow Champion" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Cull the Weak - Whenever this creature enters the battle zone, each enemy creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is banished.)" />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="20/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a30" name="Wandering Brain-Eater">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Zombie" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="Blocker&#xd;&#xa;Guard&#xd;&#xa;Shambling - This creature enters the battle zone tapped." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="21/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a31" name="Aerial Bombardment">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="If your opponent has 6 or more shields, choose 3 of them. Your opponent puts those shields into his or her discard pile." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="22/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a32" name="Blastforge Marauder">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Drakon" />
+			<property name="Power" value="1000+" />
+			<property name="Rules" value="Fast Attack&#xd;&#xa;Powerful Attack +6000&#xd;&#xa;Double Breaker" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="23/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a33" name="Drakon Upstart">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Drakon" />
+			<property name="Power" value="4000" />
+			<property name="Rules" value="" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="24/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a34" name="Flame Fangs">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Banish target enemy creature that has power 4000 or less." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="25/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a35" name="Galsaur">
+			<property name="Level" value="8" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Rock Brute" />
+			<property name="Power" value="8000" />
+			<property name="Rules" value="Protector&#xd;&#xa;Double Breaker&#xd;&#xa;Incendiary Terrain - Each enemy creature attacks creatures each turn if able." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="26/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a36" name="Manic Mechanic">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Burn Belly" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Protector" />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="27/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a37" name="Ricochet Shot">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Banish up to 2 target enemy creatures that each have power 1000 or less." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="28/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a38" name="Broadsword Butterfly">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Megabug" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="29/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a39" name="Cultivate">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Look at the top card of your deck. Put that card into your hand or into your mana zone." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="30/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a40" name="Defiant Shaman">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Beast Kin" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="Protector&#xd;&#xa;One with Nature - If this creature would be banished, put it into your mana zone instead." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="31/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a41" name="Mark of Almighty Colossus">
+			<property name="Level" value="9" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Choose one:&#xd;&#xa;● Put a creature named Almighty Colossus from your hand into the battle zone.&#xd;&#xa;● Choose one of your creatures. It gets +3000 power and battles target enemy creature." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="32/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a42" name="Nurturing Hive">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Living City" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="Everspring - You tap 1 less mana card to summon creatures." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="33/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a43" name="Tricky Turnip">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Wild Veggie" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="Undiceable - This creature can't be the target of your opponent's spells and abilities." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="34/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a44" name="Tusked Shouter">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Beast Kin" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="Protector&#xd;&#xa;Double Breaker&#xd;&#xa;Battering Tusks - While your opponent has a creature in the battle zone, this creature can attack only creatures." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="35/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a45" name="Choten's Stalker Sphere">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Enforcer" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Subverted Network - All your Corrupted creatures have &quot;Blocker&quot;" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="36/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a46" name="Fallen Keeper">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Light / Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Storm Patrol" />
+			<property name="Power" value="1000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Infusion Beams - At the end of each of your turns, untap all your Corrupted creatures." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="37/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a47" name="Luminar Unleashed">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Water" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Corrupted/Enforcer" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Corrupted creatures or Enforcers.&#xd;&#xa;Double Breaker&#xd;&#xa;Holo-Decoys - Whenever one of your Corrupted creatures attacks, tap target enemy creature. (First choose what your creature is attacking. Then tap the target creature.)." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="38/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a48" name="Reverberate">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Light / Water" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Draw a card for each shield you have." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="39/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a49" name="Skyvolt Mech">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Light / Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Mecha Thunder" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="40/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a50" name="Corvus Dragon">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Darkness" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Celestial Dragon/Terror Dragon" />
+			<property name="Power" value="10500" />
+			<property name="Rules" value="(This card enters your mana zone tapped)&#xd;&#xa;Evolution - Put on one of your Celestial Dragons or Terror Dragons.&#xd;&#xa;Double Breaker&#xd;&#xa;Twisted Fate - Whenever this creature attacks, if you have the same number or more shields than your opponent, banish target tapped enemy creature. If you have fewer shields than your opponent, you may put the top card of your deck into your shield zone face down as a new shield." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="41/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a51" name="Lamp-Lighter">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Light / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Mecha Thunder/Dread Mask" />
+			<property name="Power" value="5500" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="42/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a52" name="Mad Watcher">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Light / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Enforcer/Specter" />
+			<property name="Power" value="1500" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker&#xd;&#xa;Skirmisher&#xd;&#xa;Mind Meddle - When this creature is banished, your opponent discards a card at random." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="43/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a53" name="Panic and Disorder">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Tap target enemy creature.&#xd;&#xa;Your opponent discards a card at random." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="44/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a54" name="Bodyguard Vorg">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Light / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Mecha Thunder/Berserker" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="45/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a55" name="Crash and Burn">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Tap target enemy creature.&#xd;&#xa;Banish target enemy creature that has power 2000 or less." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="46/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a56" name="Dawnblaze Patrol">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Light / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Storm Patrol/Stomper" />
+			<property name="Power" value="4500" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="47/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a57" name="Volcano Dervish">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Light / Fire" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Skyforce Champion/Melt Warrior" />
+			<property name="Power" value="6500" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Skyforce Champions or Melt Warriors.&#xd;&#xa;Protector&#xd;&#xa;Double Breaker&#xd;&#xa;Molten Core - At the end of each of your turns, untap this creature." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="48/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a58" name="Beam Bloom">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Light / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Star Sentinel/Tree Kin" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Flower Power - During your opponent's turn, each of your other creatures gets +2000 power." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="49/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a59" name="Chief Toko">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Light / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Skyforce Champion/Spirit Totem" />
+			<property name="Power" value="4000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector&#xd;&#xa;Ancestors' Blessing - While you have the same number or more shields than your opponent, this creature gets +3000 power and has &quot;Double Breaker.&quot;" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="50/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a60" name="Hunter Sphere">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Light / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Battle Sphere/Beast Kin" />
+			<property name="Power" value="3000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Blocker&#xd;&#xa;Skirmisher&#xd;&#xa;Powerful Attack +4000" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="51/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a61" name="Stratus Beetle">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Light / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Storm Patrol/Megabug" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Charged Carapace - When this creature enters the battle zone, choose one of your other creatures. It gets +1000 power until the end of the turn. At the end of the turn, untap it." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="52/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a62" name="Emergency Protocol">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Draw up to 2 cards.&#xd;&#xa;Choose up to 2 of your shields, then break them." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="53/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a63" name="Essence Shade">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Specter" />
+			<property name="Power" value="2000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Creeping Shadows - Each of your Corrupted creatures gets +1000 power." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="54/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a64" name="Fate's Hand">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Choose target creature. If it has power 3000 or less, return it to its owner's hand. Otherwise, it gets -3000 power until the end of the turn." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="55/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a65" name="Sabotage Worm">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Rot Worm" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Vile Denial - Whenever one of your Corrupted creatures attacks, your opponent chooses and discards a card." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="56/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a66" name="The Reviled">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Corrupted/Chimera" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Corrupted creatures or Chimeras.&#xd;&#xa;Consume - For each Corrupted creature you have in your discard pile, tap 1 less mana card to summon this creature.&#xd;&#xa;Double Breaker&#xd;&#xa;Spawn - Whenever one of your Corrupted creatures attacks, choose a creature in your discard pile and return it to your hand." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="57/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a67" name="Ballistic Skyterror">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Water / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Attack Raptor" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="58/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a68" name="Blitz Commando">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Stomper" />
+			<property name="Power" value="1000" />
+			<property name="Rules" value="(This card enters you mana zone tapped.)&#xd;&#xa;Charge! - All your Corrupted creatures have &quot;Fast Attack.&quot;" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="59/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a69" name="Cyber Trooper">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Water / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Cyber Lord/Stomper" />
+			<property name="Power" value="1000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Powerful Attack +3000&#xd;&#xa;Threat Analysis - Whenever this creature attacks, look at the top card of your opponent's deck." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="60/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a70" name="Frantic Blast">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Water / Fire" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="Shield Blast&#xd;&#xa;Reveal the top card of your deck. If it's a creature, banish target enemy creature that has less power than it. Put the revealed card into your hand." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="61/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a71" name="Bad Apple">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Water / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Wild Veggie" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Rotten to the Core - All your Wild Veggies in the battle zone are Corrupted creatures in addition to their other creature types.&#xd;&#xa;Scattered Seeds - Whenever one of your Corrupted creatures attacks, you may put the top card of your deck into your mana zone." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="62/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a72" name="Bronze-Arm Renegade">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Water / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Beast Kin" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Mana Extraction - Each time one of your Corrupted creatures would be banished, put it into your mana zone instead." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="63/80" />
+		</card>  
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a73" name="Crystal Pulse">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water / Nature" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card is put into you mana zone tapped.)&#xd;&#xa;Shield Blast&#xd;&#xa;Reveal the top card of your deck. If it's a spell that has &quot;Shield Blast,&quot; cast it for free. Otherwise, put it into your mana zone." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="64/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a74" name="Tainted Quartz">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Water / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Corrupted/Spirit Quartz" />
+			<property name="Power" value="2000+" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Choten's Serum - Each of your Corrupted creatures gets +2000 power." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="65/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a75" name="Telanar, the Stormer">
+			<property name="Level" value="8" />
+			<property name="Civilization" value="Water / Nature" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Tsunami Dragon/Earthstrike Dragon" />
+			<property name="Power" value="11000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Tsunami Dragons or Earthstrike Dragons.&#xd;&#xa;Double Breaker&#xd;&#xa;Cascading Energy - Whenever one of your creatures that has power 6000 or more attacks, you may draw 2 cards." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="66/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a76" name="Boom Skull">
+			<property name="Level" value="2" />
+			<property name="Civilization" value="Darkness / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Dread Mask/Melt Warrior" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector&#xd;&#xa;Guard&#xd;&#xa;Go Boom - When this creature wins a battle, banish it." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="67/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a77" name="Flamespine Ravager">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Darkness / Fire" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Specter/Drakon" />
+			<property name="Power" value="8000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Specters or Drakons.&#xd;&#xa;Double Breaker&#xd;&#xa;Smoke Trail - Whenever this creature attacks, your opponent puts the top card of his or her deck into his or her discard pile. If its a creature, banish target enemy creature that has less power than it." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="68/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a78" name="Infernal Taskmaster">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Darkness / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Shadow Champion/Rock Brute" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Reckless Assault - Whenever one of your other creatures enters the battle zone, it gets &quot;Fast Attack&quot; until the end of the turn. At the end of turn, if that creature attacked this turn, banish it." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="69/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a79" name="Lava-Tube Crawler">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Rot Worm/Dune Gecko" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector&#xd;&#xa;Death Lunge - When this creature is banished, target enemy creature gets -1000 power until the end of the turn. (A creature that power 0 or less is banished.)" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="70/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a80" name="XT-4 Brutefist">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness / Fire" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Dread Mask/Stomper" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Skull Spikes - Whenever this creature is attacked, it gets &quot;Slayer&quot; until the end of the turn." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="71/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a81" name="Cackling Fiend">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Chimera/Beast Kin" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="(This card enters you mana zone tapped.)&#xd;&#xa;Skirmisher&#xd;&#xa;Unstable - When this creature wins a battle, banish it." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="72/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a82" name="Fearfeather the Scavenger">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness / Nature" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Chimera/Tree Kin" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Chimeras or Tree Kin.&#xd;&#xa;Carrion Feast - Whenever this creature wins a battle, you opponent discards a card at random, then you may put the top card of your deck into your mana zone." />
+		    <property name="Rarity" value="****" />
+            <property name="Number" value="73/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a83" name="Looming Devourer">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Darkness / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Specter/Colossus" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector&#xd;&#xa;Double Breaker&#xd;&#xa;Slayer" />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="74/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a84" name="Shadow Strike">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Darkness / Nature" />
+			<property name="Card Type" value="Spell" />
+			<property name="Race" value="" />
+			<property name="Power" value="" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Shield Blast&#xd;&#xa;Choose one of your creatures. Target enemy creature loses power equal to that creature's power until the end of the turn. (A creature that has power 0 or less is banished.)" />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="75/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a85" name="Skulking Cypress">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Darkness / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Zombie/Tree Kin" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Coiling Vines - When creature enters the battle zone, each player chooses a card from his or her hand, then puts it into his or her mana zone." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="76/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a86" name="Armored Sentinel">
+			<property name="Level" value="3" />
+			<property name="Civilization" value="Fire / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Drakon/Beast Kin" />
+			<property name="Power" value="3000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Protector&#xd;&#xa;Mustering Roar - Each of your other creatures that has &quot;Protector&quot; gets +2000 power." />
+		    <property name="Rarity" value="**" />
+            <property name="Number" value="77/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a87" name="Corporal Pepper">
+			<property name="Level" value="4" />
+			<property name="Civilization" value="Fire / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Berserker/Wild Veggie" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Red Hot - This creature attacks each turn if able.&#xd;&#xa;Pickled - If this creature would be banished, put it into your mana zone instead." />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="78/80" />
+		</card> 
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a88" name="Emblazoned Giant">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Fire / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Attack Raptor/Colossus" />
+			<property name="Power" value="7000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)Double Breaker&#xd;&#xa;" />
+		    <property name="Rarity" value="*" />
+            <property name="Number" value="79/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a89" name="Victory Gunner">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Fire / Nature" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Stomper/Beast Kin" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Stompers or Beast Kin.&#xd;&#xa;Reload - Whenever this creature becomes tapped for the first time each each turn, untap it.&#xd;&#xa;Mana-Charged Rounds - Whenever this creature attacks, you may put the top card of your deck into your mana zone." />
+		    <property name="Rarity" value="***" />
+            <property name="Number" value="80/80" />
+		</card>
+		<card id="30d41942-c4b7-4849-8bb3-565bd4011a90" name="Vicious Squillace Scourge">
+			<property name="Level" value="5" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Corrupted/Leviathan/Chimera" />
+			<property name="Power" value="9000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Evolution - Put on one of your Corrupted creatures, Leviathans, or Chimeras.&#xd;&#xa;Double Breaker&#xd;&#xa;Crushing Assault - All your Corrupted creatures can't be blocked and have &quot;Slayer&quot;." />
+		    <property name="Rarity" value="D*****" />
+            <property name="Number" value="D1/D1" />
+		</card>
+</cards> 
+</set>

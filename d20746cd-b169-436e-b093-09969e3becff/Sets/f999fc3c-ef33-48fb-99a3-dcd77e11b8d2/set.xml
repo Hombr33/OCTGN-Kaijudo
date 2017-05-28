@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="14.Horde Onslaught" id="f999fc3c-ef33-48fb-99a3-dcd77e11b8d2" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="4.5.0.0" version="2.0.0.0">
+	<cards> 
+	<card id="e85df795-e83a-4412-bc40-ad5a18dea200" name="Hive Marshal Golian">
+			<property name="Level" value="8" />
+			<property name="Civilization" value="Nature" />
+			<property name="Card Type" value="Evolution Creature" />
+			<property name="Race" value="Megabug" />
+			<property name="Power" value="8000" />
+			<property name="Rules" value="Evolution - Put on one of your Nature creatures.&#xd;&#xa;Double Breaker&#xd;&#xa;Unleash - Each of your other creatures gets +3000 power until the end of the turn and can't be blocked this turn by creatures that have less power than it." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="D1/D3" />
+		</card>  
+	<card id="e85df795-e83a-4412-bc40-ad5a18dea201" name="Pakidamo the Resilient">
+			<property name="Level" value="7" />
+			<property name="Civilization" value=" Light / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Storm Patrol/Beast Kin" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker&#xd;&#xa;Defense Drop - When this creature enters the battle zone, search your deck. You may put a non-evolution creature that is level 3 or less and has &quot;Blocker&quot; from your deck into the battle zone. Then shuffle your deck." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="D2/D3" />
+		</card>  
+	<card id="e85df795-e83a-4412-bc40-ad5a18dea202" name="Abyssal Stalker Baleia">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Water / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Leviathan/Specter" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Double Breaker&#xd;&#xa;Aura of Dread - When this creature enters the battle zone, all your creatures get &quot;Slayer&quot; until the end of the turn.&#xd;&#xa;Ethereal - This creature can't be blocked." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="D3/D3" />
+		</card>  
+	</cards> 
+	</set>

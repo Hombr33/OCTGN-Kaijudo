@@ -1,0 +1,4 @@
+1.Rename the backboard.jpg to whatever name you want (dont change its format, just rename it) 
+2.Rename the background you want to use to backboard.jpg (make sure it's .jpg)
+
+REMEMBER: You can even create your own backgrounds and play with them, but they have to be 2487X1500 Pixels and be .jpg format

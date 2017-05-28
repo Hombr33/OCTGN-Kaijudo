@@ -1,0 +1,947 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+	<blocks>
+	<block type="text" id="title">
+			<location x="99" y="28" />
+			<text color="#000000" size="30" />
+			<border color="#000000" size="2" />
+			<wordwrap height="31" width="349" align="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="cost">
+			<location x="27" y="26" />
+			<text color="#FFFFFF" size="42" />
+			<border color="#000000" size="4" />
+			<wordwrap height="42" width="56" align="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="race">
+			<location x="96" y="68" />
+			<text color="#000000" size="18" />
+			<border color="#000000" size="1" />
+			<wordwrap height="18" width="350" align="center" shrinktofit="True"/>
+		</block>
+		<block type="text" id="power">
+			<location x="26" y="591" />
+			<text color="#FFFFFF" size="60" />
+			<border color="#000000" size="8" />
+			<wordwrap height="58" width="126" align="center" shrinktofit="True" valign="center"/>
+		</block>
+		<block type="text" id="type">
+			<location x="27" y="406" />
+			<text color="#000000" size="20" />
+			<border color="#000000" size="1" />
+			<wordwrap height="20" width="123" align="near" shrinktofit="True"/>
+		</block>
+			<block type="text" id="rules">
+			<location x="56" y="435" />
+			<text color="#000000" size="20" />
+			<border color="#000000" size="1" />
+			<wordwrap height="149" width="370" align="near" shrinktofit="True"/>
+		</block>
+		<block type="text" id="rarity">
+			<location x="285" y="406" />
+			<text color="#000000" size="16" />
+			<border color="#000000" size="1" />
+			<wordwrap height="200" width="167" align="far" shrinktofit="True"/>
+		</block>
+	</blocks>
+	<template src="proxy/nature.png" >
+		<matches>
+			<match name="Civilization" value="Nature"/> 
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/light.png" >
+		<matches>
+			<match name="Civilization" value="Light"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/water.png" >
+		<matches>
+			<match name="Civilization" value="Water"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/fire.png" >
+		<matches>
+			<match name="Civilization" value="Fire"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/darkness.png" >
+		<matches>
+			<match name="Civilization" value="Darkness"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/water-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Water / Darkness"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-water.png" >
+		<matches>
+			<match name="Civilization" value="Light / Water"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-nature.png" >
+		<matches>
+			<match name="Civilization" value="Fire / Nature"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/light-nature.png" >
+		<matches>
+			<match name="Civilization" value="Light / Nature"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Fire"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-fire.png" >
+		<matches>
+			<match name="Civilization" value="Light / Fire"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-fire.png" >
+		<matches>
+			<match name="Civilization" value="Water / Fire"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/darkness-nature.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Nature"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Light / Darkness"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-nature.png" >
+		<matches>
+			<match name="Civilization" value="Water / Nature"/>
+			<match name="Card Type" value="Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/nature.png" >
+		<matches>
+			<match name="Civilization" value="Nature"/> 
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/light.png" >
+		<matches>
+			<match name="Civilization" value="Light"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/water.png" >
+		<matches>
+			<match name="Civilization" value="Water"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/fire.png" >
+		<matches>
+			<match name="Civilization" value="Fire"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/darkness.png" >
+		<matches>
+			<match name="Civilization" value="Darkness"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/water-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Water / Darkness"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-water.png" >
+		<matches>
+			<match name="Civilization" value="Light / Water"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-nature.png" >
+		<matches>
+			<match name="Civilization" value="Fire / Nature"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/light-nature.png" >
+		<matches>
+			<match name="Civilization" value="Light / Nature"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Fire"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-fire.png" >
+		<matches>
+			<match name="Civilization" value="Light / Fire"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-fire.png" >
+		<matches>
+			<match name="Civilization" value="Water / Fire"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/darkness-nature.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Nature"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Light / Darkness"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-nature.png" >
+		<matches>
+			<match name="Civilization" value="Water / Nature"/>
+			<match name="Card Type" value="Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/nature.png" >
+		<matches>
+			<match name="Civilization" value="Nature"/> 
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/light.png" >
+		<matches>
+			<match name="Civilization" value="Light"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/water.png" >
+		<matches>
+			<match name="Civilization" value="Water"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/fire.png" >
+		<matches>
+			<match name="Civilization" value="Fire"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/darkness.png" >
+		<matches>
+			<match name="Civilization" value="Darkness"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/water-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Water / Darkness"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-water.png" >
+		<matches>
+			<match name="Civilization" value="Light / Water"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-nature.png" >
+		<matches>
+			<match name="Civilization" value="Fire / Nature"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/light-nature.png" >
+		<matches>
+			<match name="Civilization" value="Light / Nature"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Fire"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-fire.png" >
+		<matches>
+			<match name="Civilization" value="Light / Fire"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-fire.png" >
+		<matches>
+			<match name="Civilization" value="Water / Fire"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/darkness-nature.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Nature"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-darkness.png" >
+		<matches>
+			<match name="Civilization" value="Light / Darkness"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-nature.png" >
+		<matches>
+			<match name="Civilization" value="Water / Nature"/>
+			<match name="Card Type" value="Vortex Evolution Creature"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/water-darkness spell.png" >
+		<matches>
+			<match name="Civilization" value="Water / Darkness"/> 
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-water spell.png" >
+		<matches>
+			<match name="Civilization" value="Light / Water"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-nature spell.png" >
+		<matches>
+			<match name="Civilization" value="Fire / Nature"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/light-nature spell.png" >
+		<matches>
+			<match name="Civilization" value="Light / Nature"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/fire-darkness spell.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Fire"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-fire spell.png" >
+		<matches>
+			<match name="Civilization" value="Light / Fire"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/darkness-nature spell.png" >
+		<matches>
+			<match name="Civilization" value="Darkness / Nature"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/light-darkness spell.png" >
+		<matches>
+			<match name="Civilization" value="Light / Darkness"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-fire spell.png" >
+		<matches>
+			<match name="Civilization" value="Water / Fire"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template> 
+	<template src="proxy/water-nature spell.png" >
+		<matches>
+			<match name="Civilization" value="Water / Nature"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+	<template src="proxy/nature spell.png" >
+		<matches>
+			<match name="Civilization" value="Nature"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/light spell.png" >
+		<matches>
+			<match name="Civilization" value="Light"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/water spell.png" >
+		<matches>
+			<match name="Civilization" value="Water"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/fire spell.png" >
+		<matches>
+			<match name="Civilization" value="Fire"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+		<template src="proxy/darkness spell.png" >
+		<matches>
+			<match name="Civilization" value="Darkness"/>
+			<match name="Card Type" value="Spell"/>
+		</matches>
+		<textblocks>
+			<link block="title"><property name="Name" /></link>
+			<link block="cost"><property name="Level" /></link>
+			<link block="race"><property name="Race" /></link>
+			<link block="rules"><property name="Rules" /></link>
+			<link block="power"><property name="Power" /></link>
+			<link block="rarity"><property name="Rarity" /></link>
+			<link block="type"><property name="Card Type" /></link>
+		</textblocks>
+	</template>
+</templates>

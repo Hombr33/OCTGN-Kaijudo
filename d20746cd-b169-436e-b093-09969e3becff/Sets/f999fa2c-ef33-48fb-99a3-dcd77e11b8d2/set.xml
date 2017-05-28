@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="11.Booster Brawl" id="f999fa2c-ef33-48fb-99a3-dcd77e11b8d2" gameId="d20746cd-b169-436e-b093-09969e3becff" gameVersion="4.5.0.0" version="2.0.0.0">
+<cards> 
+        <card id="23f37fc0-186d-4155-a8ae-9bac39af0a60" name="Kolani, Dragon Oracle">
+			<property name="Level" value="7" />
+			<property name="Civilization" value="Water" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Tsunami Dragon" />
+			<property name="Power" value="6000" />
+			<property name="Rules" value="Double Breaker&#xd;&#xa;Whispering Waves - When this creature enters the battle zone, look at the top 2 cards of your deck. Put one of them into your hand and the other on top of your deck." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="1/3" />
+		</card> 
+        <card id="23f37fc0-186d-4155-a8ae-9bac39af0a61" name="Krakatoa the Shattered">
+			<property name="Level" value="6" />
+			<property name="Civilization" value="Fire / Nature" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Armored Dragon/Living City" />
+			<property name="Power" value="5000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Rousing Bellow - When this creature enters the battle zone, you may put a non-evolution creature that is level 4 or less from your hand into the battle zone. That creature gets &quot;Fast Attack&quot; until the end of the turn. At the end of the turn, put it into your mana zone." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="2/3" />
+		</card> 
+		<card id="23f37fc0-186d-4155-a8ae-9bac39af0a62" name="Spire Widow">
+			<property name="Level" value="8" />
+			<property name="Civilization" value="Light / Darkness" />
+			<property name="Card Type" value="Creature" />
+			<property name="Race" value="Sky Weaver/Brain Jacker" />
+			<property name="Power" value="2000" />
+			<property name="Rules" value="(This card enters your mana zone tapped.)&#xd;&#xa;Slayer&#xd;&#xa;Unweaving - When this creature enters the battle zone, choose target enemy creature. Your opponent shuffles it into his or her deck." />
+		    <property name="Rarity" value="*****" />
+            <property name="Number" value="3/3" />
+		</card> 
+</cards> 
+</set>

@@ -1,0 +1,50 @@
+Link to the Image Packs: https://www.dropbox.com/s/4o55czx64fan0jj/All%20Images.rar
+Note: All the cards' images were downloaded from Kaijudo's official site.
+
+Did you know, you can change your background in game, even if you are not a member ?
+Go to MyComputer/The place where you have OCTGN installed/GameDatabase/d20746cd-b169-436e-b093-09969e3becff/background. You will find a readme there.
+
+Read the text below if you are confused regarding OCTGN's interface GUI or Kaijudo's automatations.
+
+Hotkeys in Kaijudo:
+
+On Table Group:
+F1 -> Untaps all cards on the table that you own
+F3 -> Highlights target card to be treated as a Mana (green color)
+F2 -> Highlights target card to use its ability (blue color) 
+F8 -> Highlights the card you use to defeat your opponent(red color)  
+F4 -> Clears Highlights
+Ctrl+R -> Rolls a six-sided dice 
+Ctrl+Shift+R -> Rolls a twenty-sided dice
+Esc -> Breaks target shield
+Ctrl+F -> Flips target card
+Del -> Banishes target card that you own
+Ctrl+Alt+S -> Displays your hand to you opponent
+
+Library Group:
+Ctrl+S -> Shuffles your deck
+Ctrl+D -> Draw 1 card
+Ctrl+Shift+D -> Draw X cards
+Ctrl+A -> Tap/Untap target creature that you own 
+Ctrl+M -> Plays next card as mana directly (from the top of the deck)
+Ctrl+Shift+S -> Plays the next card as a shield directly (from the top of the deck) 
+Ctrl+N -> Plays the next card directly onto the battle zone
+Ctrl+Shift+M -> Mills the next card(from the top of the deck)
+Ctrl+Enter -> Sets up the game (Places 5 shields, Draws 5 cards and Rolls the 6-sided dice)
+Ctrl+Alt+Enter -> Returns all the cards in your deck and shuffles for a new duel
+
+Hotkeys in OCTGN (works in every OCTGN game):
+
+Shift+Click -> Marks target as designated
+Hold Shift+Click -> Draws an arrow from a card to another 
+Right-Click Functions: Peek -> Makes visible a face-down card
+                       Look at/Top X cards/All cards -> Looks at a specific portion of your library
+					   Move to/Hand/Top of Deck/Bottom of Deck/Graveyard(Discard Pile) -> Moves target card to a specific portion of your Library/Discard Pile 
+Drag&Drop function is also very handful and easy to use
+					
+Kaijudo feed Creators: Zerovash(scripts) 
+                       Hombr33(sets and media files) 
+		               Arkde17(contribuitor)
+		               Brine(ProxyGenerator)
+			       Chaoticreaper(XML contribuitor)
+Disclaimer: Kaijudo cards are owned by Wizards of the Coast and as the Legislature suggests in the Copyright Act Under the section 107, this was made ONLY for fair use.
